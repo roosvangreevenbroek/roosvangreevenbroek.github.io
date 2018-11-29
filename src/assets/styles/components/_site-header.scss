@@ -1,0 +1,21 @@
+.site-header {
+    @include content(large);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        max-width: 140px;
+        font-weight: $fw-medium;
+        font-size: 3rem;
+    }
+
+    nav {
+        margin-left: auto;
+        width: 40%;
+        max-width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

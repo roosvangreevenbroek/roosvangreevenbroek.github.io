@@ -1,0 +1,12 @@
+import React from 'react'
+import TitleDash from '../components/title-dash'
+
+const PageHeader = ({ title, superTitle }) => (
+  <div className="page-header">
+    <TitleDash />
+    <h3>{ superTitle }</h3>
+    <h1>{ title }</h1>
+  </div>
+)
+
+export default PageHeader

@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $body-font; font-weight: normal; font-size: map-get($font-sizes-small, body);
+
+    @include bp-min($small) {
+        font-size: map-get($font-sizes-large, body);
+    }
+}
+
+a {
+    color: $color-black; text-decoration: none;
+
+    @include hocus {
+        text-decoration: none;
+    }
+}

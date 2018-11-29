@@ -1,0 +1,15 @@
+.page-header {
+
+    h3 {
+        @include font-size('h3');
+    }
+
+    h1 {
+        @include font-size('h1');
+        font-weight: $fw-heavy;
+    }
+
+    @include bp-min($small) {
+        max-width: 60%;
+    }
+}
