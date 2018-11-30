@@ -1,18 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'roos van greevenbroek',
+    title: 'Roos van Greevenbroek | UX designer',
   },
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
     'gatsby-transformer-sharp',
+    'gatsby-transformer-remark',
     'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -23,6 +17,13 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/projects`,
+        name: "projects",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

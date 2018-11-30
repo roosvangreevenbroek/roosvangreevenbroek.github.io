@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "roos-van-greevenbroek-portfolio",
+  "description": "Roos van Greevenbroek | UX designer",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
@@ -11,7 +11,8 @@
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-sass": "^2.0.5",
     "gatsby-plugin-sharp": "^2.0.12",
-    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-source-filesystem": "^2.0.10",
+    "gatsby-transformer-remark": "^2.1.15",
     "gatsby-transformer-sharp": "^2.1.8",
     "node-sass": "^4.10.0",
     "react": "^16.6.3",
@@ -23,8 +24,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "rm -rf .cache/* && gatsby build",
+    "develop": "rm -rf .cache/* && gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import favicon from '../assets/images/favicon.png'
 
 import Header from './header'
 
@@ -23,6 +24,9 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
+          ]}
+          link={[
+            { rel: 'shortcut icon', type: 'image/png', href: `${ favicon }` }
           ]}
         >
           <html lang="en" />

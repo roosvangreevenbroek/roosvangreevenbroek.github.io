@@ -1,15 +1,49 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
 import '../assets/styles/main.scss'
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
+
   <Layout>
 
-    <Link to="/page-2/">Go to page 2</Link>
+    <ul>
+      {
+        data.allMarkdownRemark.edges.map(({ node }) => {
+          const fm = node.frontmatter;
+
+          return (
+            <li key={node.id}>
+              <Link to={fm.path}>{ fm.supertitle }</Link>
+            </li>
+          )
+        })
+      }
+    </ul>
   </Layout>
 )
 
 export default IndexPage
+
+export const query = graphql`
+  query IndexQuery {
+    allMarkdownRemark (
+      sort: { order: DESC, fields: [frontmatter___date] },
+      limit: 12
+    ) {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            path
+            title
+            supertitle
+          }
+        }
+      }
+    }
+  }
+`

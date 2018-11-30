@@ -1,17 +1,41 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import PageHeader from '../components/page-header'
 
-const ProjectDetail = () => (
-  <Layout>
-    <PageHeader
-      superTitle="Designtool for Correctbook"
-      title="Creating a designtool that inspires companies to customize their endlessly reusable notebook. "
-    />
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+const ProjectDetail = ({ data }) => {
+  const { markdownRemark } = data
+  const { frontmatter: fm, html } = markdownRemark
+
+  return (
+    <Layout>
+      <PageHeader
+        superTitle={ fm.supertitle }
+        title={ fm.title }
+      />
+
+      <div
+        className="content__inner"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+
+      <Link to="/">Go back</Link>
+    </Layout>
+  )
+}
 
 export default ProjectDetail
+
+export const pageQuery = graphql`
+  query BlogPostByPath($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        path
+        title
+        supertitle
+      }
+    }
+  }
+`
