@@ -1,0 +1,26 @@
+.project-showcase {
+    margin-bottom: 16rem;
+    display: flex;
+    $self: &;
+
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+
+        #{$self}__content {
+            padding-left: 0;
+            padding-right: 5rem;
+        }
+    }
+
+    &__image {
+        box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.2);
+        width: 60%;
+        flex-shrink: 0;
+        align-self: flex-start;
+    }
+
+    &__content {
+        padding-top: 2rem;
+        padding-left: 5rem;
+    }
+}

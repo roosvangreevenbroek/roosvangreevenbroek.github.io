@@ -17,3 +17,41 @@ a {
         text-decoration: none;
     }
 }
+
+.link {
+    color: $color-accent-2;
+    position: relative;
+
+    @include hocus {
+
+        &:after {
+            transform: translateY(4px) scaleX(1.2);
+            opacity: 0;
+        }
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 12px;
+        width: calc(100% - 4px);
+        opacity: 1;
+        background-color: rgba($color-accent-1, 0.35);
+        transition: transform .2s ease-out, opacity .2s ease-out;
+    }
+}
+
+h1,
+.h1 {
+    @include font-size('h1');
+    font-weight: $fw-heavy;
+    line-height: 1.1;
+}
+
+h3,
+.h3 {
+    @include font-size('h3');
+    margin-bottom: 1rem;
+}

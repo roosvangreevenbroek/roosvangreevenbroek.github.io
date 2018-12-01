@@ -35,6 +35,13 @@ export const pageQuery = graphql`
         path
         title
         supertitle
+        image {
+          childImageSharp {
+            sizes(maxWidth: 600, quality:100) {
+              ...GatsbyImageSharpSizes_noBase64
+            }
+          }
+        }
       }
     }
   }
