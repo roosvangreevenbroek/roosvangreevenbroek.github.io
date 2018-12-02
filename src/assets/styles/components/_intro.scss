@@ -1,0 +1,16 @@
+.intro {
+
+    h1,
+    p,
+    &__arrow {
+        margin-bottom: 5rem;
+    }
+
+    &__arrow {
+        display: inline-block;
+    }
+
+    @include bp-min($medium) {
+        max-width: 70rem;
+    }
+}

@@ -41,3 +41,7 @@
         font-size: map-get($font-sizes-large, $size);
     }
 }
+
+@mixin box-shadow {
+    box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.2);
+}
