@@ -8,6 +8,10 @@ body {
     @include bp-min($small) {
         font-size: map-get($font-sizes-large, body);
     }
+
+    &.no-scroll {
+        overflow: hidden;
+    }
 }
 
 a {

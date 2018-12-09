@@ -1,38 +1,38 @@
 .site-header {
-    @include content(large);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    display: flex;
-    align-items: center;
+    padding-top: 0;
+    padding-bottom: 3rem;
     background-color: $color-white;
-    // position: fixed;
-    // z-index: 10;
-    // left: 0;
-    // top: 0;
-    // width: 100%;
 
     @include bp-min($medium) {
-
+        padding-top: 3rem;
     }
 
-    h1 {
-        font-weight: $fw-medium;
-        font-size: 3rem;
-    }
-
-    nav {
-        // padding-top: 10rem;
-        margin-left: auto;
+    &__inner {
+        @include content(large);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         display: flex;
-        flex-direction: column;
+        align-items: center;
         background-color: $color-white;
-        text-align: center;
 
-        @include bp-min($medium) {
-            justify-content: space-between;
-            flex-direction: row;
-            max-width: 400px;
-            width: 40%;
+        h1 {
+            font-weight: $fw-medium;
+            font-size: 3rem;
         }
+
+        // nav {
+        //     display: none;
+        //     margin-left: auto;
+        //     background-color: $color-white;
+        //     text-align: center;
+
+        //     @include bp-min($medium) {
+
+        //     }
+        // }
+    }
+
+    .menu {
+        margin-left: auto;
     }
 }

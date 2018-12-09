@@ -1,0 +1,76 @@
+.menu {
+
+    &__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba($color-white, 0.6);
+        z-index: 100;
+        transform: translateX(100%);
+        transition: transform .6s cubic-bezier(0.645, 0.045, 0.355, 1), background-color .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+        @include bp-min($medium) {
+            position: relative;
+            width: auto;
+            height: auto;
+            transform: none;
+        }
+
+        &.is-open {
+            transform: translateX(0);
+            background-color: rgba($color-white, 1);
+        }
+    }
+
+    &__header {
+        margin-bottom: 6rem;
+        padding: 1rem;
+        display: flex;
+
+        button {
+            margin-left: auto;
+        }
+
+        @include bp-min($medium) {
+            display: none;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        a {
+            padding: 3rem 0;
+            font-weight: $fw-heavy;
+            @include font-size('h2');
+            @include hocus {
+                background-color: $color-gray-1;
+            }
+        }
+
+        @include bp-min($medium) {
+            flex-direction: row;
+            justify-content: space-between;
+            max-width: 400px;
+
+            a {
+                font-weight: $fw-normal;
+                @include hocus {
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+
+    &__button {
+
+        @include bp-min($medium) {
+            display: none;
+        }
+    }
+
+}

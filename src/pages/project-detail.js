@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import PageHeader from '../components/page-header'
 
 const ProjectDetail = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter: fm, html } = markdownRemark
+  const image = fm.image.childImageSharp
 
   return (
     <Layout>
@@ -13,6 +15,8 @@ const ProjectDetail = ({ data }) => {
         superTitle={ fm.supertitle }
         title={ fm.title }
       />
+
+      <Img sizes={{ ...image.sizes, aspectRatio: 3/2 }} className="" />
 
       <div
         className="content__inner"
