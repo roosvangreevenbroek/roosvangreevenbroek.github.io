@@ -7,10 +7,15 @@
     }
 
     &__arrow {
-        display: inline-block;
+        display: block;
+        text-align: center;
     }
 
     @include bp-min($medium) {
         max-width: 70rem;
+
+        &__arrow {
+            text-align: left;
+        }
     }
 }

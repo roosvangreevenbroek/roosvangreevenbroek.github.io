@@ -7,6 +7,7 @@ image: "./portfolio.jpg"
 team: "Individual"
 type: "Responsive website"
 role: "Research, UX, UI"
+goal: "To show what I have to offer as a UX - psychologist and to practise my UX skills."
 timeline: "October/December 2018"
 intro: "I made a UX project out of making my own UX design portfolio website. Firstly, I did not want to use templates, because they are not always ux friendly and also not authentic. In addition, I wanted to further practice my ux skills and making my own website was the perfect idea for this. Ultimately, of course, I also wanted to show what I can do and who I am to possible future employers."
 ---

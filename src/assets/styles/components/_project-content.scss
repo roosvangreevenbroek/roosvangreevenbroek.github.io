@@ -1,0 +1,18 @@
+.project-content {
+    padding-top: 10rem;
+    line-height: 2;
+
+    p {
+        margin-bottom: 1.5rem;
+    }
+
+    h2 {
+        position: absolute;
+        left: 3rem;
+        font-weight: $fw-heavy;
+        line-height: normal;
+        transform: translateY(3px);
+        text-transform: uppercase;
+        max-width: 200px;
+    }
+}

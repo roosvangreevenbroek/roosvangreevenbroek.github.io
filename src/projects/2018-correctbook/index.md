@@ -9,6 +9,7 @@ company: "Correctbook"
 team: "Duo collaboration"
 type: "Mobile-first web-app"
 role: "Research, UX, UI"
+goal: "Attract companies to customize and purchase Correctbooks to increase the impact on illiteracy."
 timeline: "September 2018"
 ---
 

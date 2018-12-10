@@ -9,21 +9,46 @@ const ProjectDetail = ({ data }) => {
   const { frontmatter: fm, html } = markdownRemark
   const image = fm.image.childImageSharp
 
+  const renderProjectProp = (prop, title) => {
+    if (prop) {
+      return (
+        <div className="project-header__prop">
+          <h5>{ title }</h5>
+          <p>{ prop }</p>
+        </div>
+      )
+    }
+  }
+
   return (
     <Layout>
-      <PageHeader
-        superTitle={ fm.supertitle }
-        title={ fm.title }
-      />
+      <section className="project-header">
+        <PageHeader
+          superTitle={ fm.supertitle }
+          title={ fm.title }
+        />
 
-      <Img sizes={{ ...image.sizes, aspectRatio: 3/2 }} className="" />
+        <Img sizes={{ ...image.sizes, aspectRatio: 5/3 }} className="" />
 
-      <div
-        className="content__inner"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+        <div className="project-header__intro">
+          <p>{ fm.intro }</p>
+          <div className="project-header__props">
+            { renderProjectProp(fm.company, 'Company') }
+            { renderProjectProp(fm.team, 'Team') }
+            { renderProjectProp(fm.type, 'Type') }
+            { renderProjectProp(fm.role, 'Role') }
+            { renderProjectProp(fm.timeline, 'Timeline') }
+          </div>
+        </div>
+      </section>
 
-      <Link to="/">Go back</Link>
+      <section className="content--small project-content">
+        <div
+          className="content__inner"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+      </section>
+
     </Layout>
   )
 }
@@ -39,9 +64,15 @@ export const pageQuery = graphql`
         path
         title
         supertitle
+        intro
+        company
+        team
+        type
+        role
+        timeline
         image {
           childImageSharp {
-            sizes(maxWidth: 600, quality:100) {
+            sizes(quality:100) {
               ...GatsbyImageSharpSizes_noBase64
             }
           }

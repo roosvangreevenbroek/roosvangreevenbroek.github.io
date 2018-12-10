@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Headroom from 'react-headroom'
 import Menu from './menu'
 
-const Header = ({ siteTitle }) => (
+const SiteHeader = ({ siteTitle }) => (
   <header className="site-header">
     <Headroom pinStart={30}>
       <div className="site-header__inner">
@@ -23,4 +23,4 @@ const Header = ({ siteTitle }) => (
   </header>
 )
 
-export default Header
+export default SiteHeader

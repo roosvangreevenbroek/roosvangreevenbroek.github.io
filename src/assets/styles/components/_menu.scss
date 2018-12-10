@@ -55,12 +55,17 @@
         @include bp-min($medium) {
             flex-direction: row;
             justify-content: space-between;
-            max-width: 400px;
 
             a {
+                margin-left: 8rem;
                 font-weight: $fw-normal;
+                @include font-size('body');
                 @include hocus {
                     background-color: transparent;
+                }
+
+                &:first-child {
+                    margin-left: 0;
                 }
             }
         }

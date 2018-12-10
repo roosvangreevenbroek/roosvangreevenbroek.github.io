@@ -76,3 +76,19 @@ h4,
     font-weight: $fw-heavy;
     text-transform: uppercase;
 }
+
+h5,
+.h5 {
+    @include font-size('h5');
+    font-weight: $fw-medium;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid $color-gray-2;
+    margin: 4rem 0;
+
+    @include bp-min($small) {
+        margin: 8rem 0;
+    }
+}

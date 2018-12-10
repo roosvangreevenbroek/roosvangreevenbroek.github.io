@@ -1,0 +1,31 @@
+.process-block-container {
+
+    @include bp-min($medium) {
+        display: flex;
+        justify-content: space-between;
+
+        > div {
+            width: calc(50% - 6rem);
+        }
+    }
+}
+
+.process-block {
+    margin-bottom: 3rem;
+    display: block;
+
+    &__title {
+        margin-bottom: 0.4rem;
+        font-weight: $fw-medium;
+        @include font-size('body');
+
+        span {
+            margin-right: 1rem;
+            @include font-size('h2');
+        }
+    }
+
+    &__text {
+        line-height: 2;
+    }
+}

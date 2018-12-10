@@ -19,7 +19,15 @@
     &__image {
         margin-left: -10px;
         margin-right: -10px;
+        display: block;
         @include box-shadow;
+
+        &:hover {
+
+            img {
+                transform: scale(1.02);
+            }
+        }
 
         @include bp-min($medium) {
             margin: 0;
@@ -34,6 +42,28 @@
 
         @include bp-min($medium) {
             padding-left: 5rem;
+        }
+    }
+
+    &__additional-info {
+        display: none;
+        border-top: 2px solid $color-gray-1;
+        margin-top: 4rem;
+        padding-top: 3rem;
+        justify-content: space-between;
+        color: $color-gray-3;
+        @include font-size('h4');
+
+        > div {
+            width: calc(50% - 2rem);
+        }
+
+        h4 {
+            margin-bottom: 1rem;
+        }
+
+        @include bp-min($large) {
+            display: flex;
         }
     }
 

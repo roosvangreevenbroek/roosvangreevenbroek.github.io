@@ -4,7 +4,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import favicon from '../assets/images/favicon.png'
 
-import Header from './header'
+import SiteHeader from './site-header'
+import SiteFooter from './site-footer'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -32,11 +33,13 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
 
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <SiteHeader siteTitle={data.site.siteMetadata.title} />
 
-        <main className="content--large">
+        <main className="content--large relative">
           {children}
         </main>
+
+        <SiteFooter />
       </>
     )}
   />

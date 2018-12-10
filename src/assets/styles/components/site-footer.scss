@@ -1,0 +1,32 @@
+.site-footer {
+    margin-top: 4rem;
+    @include content(large);
+
+    &__inner {
+        border-top: 2px solid $color-gray-2;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $color-gray-3;
+
+        @include bp-min($medium) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    ul {
+        margin-top: 1rem;
+        display: flex;
+
+        @include bp-min($medium) {
+            margin-top: 0;
+        }
+    }
+
+    li {
+        margin-left: 2rem;
+    }
+}

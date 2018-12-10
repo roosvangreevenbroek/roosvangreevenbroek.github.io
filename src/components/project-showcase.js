@@ -9,7 +9,9 @@ const ProjectShowcase = ({ fm }) => {
 
   return (
     <section className="project-showcase">
-      <Img sizes={{ ...image.sizes, aspectRatio: 3/2 }} className="project-showcase__image" />
+      <Link to={fm.path} className="project-showcase__image">
+        <Img sizes={{ ...image.sizes, aspectRatio: 3/2 }} className="" imgStyle={{transition: 'transform .2s ease-out'}} />
+      </Link>
       <div className="project-showcase__content">
         <h3>{ fm.supertitle }</h3>
         <h2>{ fm.title }</h2>
@@ -17,6 +19,17 @@ const ProjectShowcase = ({ fm }) => {
           View project
           <img src={arrowRight} alt="" className="link__icon" />
         </Link>
+
+        <div className="project-showcase__additional-info">
+          <div>
+            <h4>My role</h4>
+            {fm.goal}
+          </div>
+          <div>
+            <h4>Main goal</h4>
+            {fm.goal}
+          </div>
+        </div>
       </div>
     </section>
   )
