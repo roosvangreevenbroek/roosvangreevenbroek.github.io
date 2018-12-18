@@ -14,9 +14,13 @@
         display: flex;
         align-items: center;
         background-color: $color-white;
+    }
 
-        h1 {
-            font-weight: $fw-medium;
+    &__logo {
+        font-weight: $fw-medium;
+        font-size: 2rem;
+
+        @include bp-min($medium) {
             font-size: 3rem;
         }
     }

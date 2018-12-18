@@ -1,9 +1,9 @@
 .project-showcase {
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
     $self: &;
 
     @include bp-min($medium) {
-        margin-bottom: 16rem;
+        margin-bottom: 20rem;
         display: flex;
 
         &:nth-child(even) {
@@ -40,6 +40,10 @@
     &__content {
         padding-top: 2rem;
 
+        h3 {
+            font-weight: $fw-medium;
+        }
+
         @include bp-min($medium) {
             padding-left: 5rem;
         }
@@ -60,6 +64,7 @@
 
         h4 {
             margin-bottom: 1rem;
+            font-weight: $fw-medium;
         }
 
         @include bp-min($large) {

@@ -1,14 +1,19 @@
 .project-header {
 
     &__intro {
-        border-bottom: 1px solid $color-gray-1;
+        border-bottom: 2px solid $color-gray-1;
         padding: 6rem 0;
-        display: flex;
 
         > p {
-            padding-right: 12rem;
-            line-height: 2;
             @include font-size('h3');
+        }
+
+        @include bp-min($small) {
+            display: flex;
+
+            > p {
+                padding-right: 12rem;
+            }
         }
     }
 
@@ -19,11 +24,6 @@
 
     &__prop {
         margin-bottom: 1.6rem;
-
-        h5 {
-            text-transform: uppercase;
-            color: $color-gray-3;
-        }
 
         p {
             font-weight: $fw-medium;

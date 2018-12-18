@@ -1,5 +1,7 @@
 .project-content {
-    padding-top: 10rem;
+    padding-top: 6rem;
+    padding-left: 0;
+    padding-right: 0;
     line-height: 2;
 
     p {
@@ -7,12 +9,34 @@
     }
 
     h2 {
-        position: absolute;
-        left: 3rem;
+        margin-bottom: 3rem;
         font-weight: $fw-heavy;
         line-height: normal;
-        transform: translateY(3px);
         text-transform: uppercase;
-        max-width: 200px;
+    }
+
+    ul,
+    ol {
+        padding-left: 3rem;
+        list-style-position: outside;
+    }
+
+    ul {
+        list-style-type: disc;
+    }
+
+    ol {
+        list-style-type: decimal;
+    }
+
+    @include bp-min($small) {
+        padding-top: 10rem;
+
+        h2 {
+            position: absolute;
+            left: 3rem;
+            max-width: 200px;
+            transform: translateY(3px);
+        }
     }
 }

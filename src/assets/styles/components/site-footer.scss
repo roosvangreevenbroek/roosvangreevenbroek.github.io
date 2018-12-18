@@ -11,18 +11,30 @@
         justify-content: center;
         color: $color-gray-3;
 
+        > span {
+            order: 2;
+            font-size: 1.2rem;
+        }
+
         @include bp-min($medium) {
             flex-direction: row;
             justify-content: space-between;
+
+            > span {
+                font-size: 1.4rem;
+                order: 1;
+            }
         }
     }
 
     ul {
-        margin-top: 1rem;
+        margin-bottom: 1rem;
         display: flex;
+        order: 1;
 
         @include bp-min($medium) {
-            margin-top: 0;
+            margin-bottom: 0;
+            order: 2;
         }
     }
 

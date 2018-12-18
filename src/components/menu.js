@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 import menuIcon from '../assets/images/menu.svg'
 import crossIcon from '../assets/images/cross.svg'
 
+const CLASS_NO_SCROLL = 'overflow-hidden'
+
 class Menu extends React.Component {
 
   constructor(props) {
@@ -21,15 +23,18 @@ class Menu extends React.Component {
 
   toggleNoScroll() {
     if (this.state.isOpen) {
-      document.body.classList.add('no-scroll');
+      document.body.classList.add(CLASS_NO_SCROLL);
+      document.documentElement.classList.add(CLASS_NO_SCROLL);
     } else {
-      document.body.classList.remove('no-scroll');
+      document.body.classList.remove(CLASS_NO_SCROLL);
+      document.documentElement.classList.remove(CLASS_NO_SCROLL);
     }
   }
 
   handleNavClick() {
-    console.log('handle nav click');
-
+    if (this.state.isOpen) {
+      this.toggleMenu();
+    }
   }
 
   render() {
@@ -37,9 +42,6 @@ class Menu extends React.Component {
       <div className="menu">
         <div className={`menu__overlay${this.state.isOpen ? ' is-open' : ''}`}>
           <div className="menu__header">
-            <h2>
-              <Link to="/">roos van <br />greevenbroek</Link>
-            </h2>
             <button className="button" onClick={() => this.toggleMenu()}>
               <img src={crossIcon} alt="" />
             </button>

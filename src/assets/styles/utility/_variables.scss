@@ -34,10 +34,10 @@ $fw-heavy: map-get($font-weights, 'heavy');
 /**
  * Widths and sizes
  */
-$site-width-small: 660px;
+$site-width-small: 680px;
 $site-width-medium: 840px;
-$site-width-large: 1120px;
-$site-max-width: 1140px;
+$site-width-large: 1200px;
+$site-max-width: 1200px;
 
 $small: 540;
 $medium: 680;
@@ -62,5 +62,6 @@ $color-black: #000000;
 $color-white: #ffffff;
 
 $color-gray-1: #e3e3e3;
-$color-gray-2: #d8d8d8;
-$color-gray-3: #aaaaaa;
+$color-gray-2: #cfcfcf;
+$color-gray-3: #797979;
+$color-gray-4: #484848;

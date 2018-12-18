@@ -7,7 +7,7 @@ const SiteHeader = ({ siteTitle }) => (
   <header className="site-header">
     <Headroom pinStart={30}>
       <div className="site-header__inner">
-        <h1>
+        <h1 className="site-header__logo">
           <Link to="/">roos van <br />greevenbroek</Link>
         </h1>
 

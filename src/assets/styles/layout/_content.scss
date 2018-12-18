@@ -3,15 +3,15 @@
     @include bp-min($small) {
         padding-left: $gutter-sm; padding-right: $gutter-sm;
         @if ($size == medium) {
-            max-width: $site-width-medium + 80;
+            max-width: $site-width-medium;
         } @else if ($size == large) {
-            max-width: $site-width-large + 80;
+            max-width: $site-width-large;
         } @else if ($size == small) {
-            max-width: $site-width-small + 80;
+            max-width: $site-width-small;
         } @else if ($size == none) {
             max-width: 100%;
         } @else {
-            max-width: $size + 80px;
+            max-width: $size + 0px;
         }
     }
 

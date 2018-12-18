@@ -1,32 +1,35 @@
 .menu {
 
     &__overlay {
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: rgba($color-white, 0.6);
+        background-color: $color-white;
+        opacity: 0;
         z-index: 100;
         transform: translateX(100%);
-        transition: transform .6s cubic-bezier(0.645, 0.045, 0.355, 1), background-color .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+        transition: transform .6s cubic-bezier(0.645, 0.045, 0.355, 1), opacity .4s cubic-bezier(0.645, 0.045, 0.355, 1);
 
         @include bp-min($medium) {
             position: relative;
             width: auto;
             height: auto;
             transform: none;
+            transition: none;
+            opacity: 1;
         }
 
         &.is-open {
             transform: translateX(0);
-            background-color: rgba($color-white, 1);
+            opacity: 1;
         }
     }
 
     &__header {
         margin-bottom: 6rem;
-        padding: 1rem;
+        padding: 2.6rem 1rem 1rem 1rem;
         display: flex;
 
         button {
@@ -44,7 +47,7 @@
         text-align: center;
 
         a {
-            padding: 3rem 0;
+            padding: 2rem 0;
             font-weight: $fw-heavy;
             @include font-size('h2');
             @include hocus {
@@ -58,7 +61,6 @@
 
             a {
                 margin-left: 8rem;
-                font-weight: $fw-normal;
                 @include font-size('body');
                 @include hocus {
                     background-color: transparent;

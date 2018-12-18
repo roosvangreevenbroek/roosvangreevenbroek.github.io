@@ -8,9 +8,9 @@ const Intro = () => (
     <h1>Hi! My name is Roos and I’m an self-motivated UX designer based in Amsterdam.</h1>
 
     <p className="h2">
+      I’m passionate about creating meaning and positivity to peoples lives.
       I use my psychological background and my UX-knowledge to seamlessly adapt
-      digital products to the needs of users. I’m passionate about creating meaning and positivity
-      to people lives. Feel free to send me an <a
+      digital products to the needs of users. Feel free to send me an <a
         href="mailto:roosvangreevenbroek@gmail.com"
         className="link">e-mail</a>,
       link up at <a

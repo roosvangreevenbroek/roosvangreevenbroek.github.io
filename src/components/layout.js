@@ -7,7 +7,7 @@ import favicon from '../assets/images/favicon.png'
 import SiteHeader from './site-header'
 import SiteFooter from './site-footer'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, classes }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
 
         <SiteHeader siteTitle={data.site.siteMetadata.title} />
 
-        <main className="content--large relative">
+        <main className={`content--large relative ${classes}`}>
           {children}
         </main>
 

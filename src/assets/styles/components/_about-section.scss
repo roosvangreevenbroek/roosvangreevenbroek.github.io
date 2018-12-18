@@ -1,0 +1,58 @@
+.about-section {
+    border-bottom: 2px solid $color-gray-1;
+    margin-bottom: 10rem;
+    padding-bottom: 10rem;
+    position: relative;
+
+    &:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    &__inner {
+        @include content('small');
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+
+        .about-section--skills & {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__title {
+        font-weight: $fw-heavy;
+        text-transform: uppercase;
+    }
+
+    article {
+        order: 2;
+    }
+
+    aside {
+        order: 1;
+    }
+
+    @include bp-min($medium) {
+
+        &__title {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        article {
+            padding-right: 4rem;
+            order: 1;
+        }
+
+        aside {
+            position: absolute;
+            top: 0;
+            right: 0;
+            max-width: 200px;
+            order: 2;
+        }
+    }
+}
