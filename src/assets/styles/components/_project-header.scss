@@ -2,13 +2,14 @@
 
     &__intro {
         border-bottom: 2px solid $color-gray-1;
-        padding: 6rem 0;
+        padding: 2rem 0 4rem;
 
         > p {
             @include font-size('h3');
         }
 
         @include bp-min($small) {
+            padding: 6rem 0;
             display: flex;
 
             > p {
@@ -23,11 +24,12 @@
     }
 
     &__prop {
-        margin-bottom: 1.6rem;
 
-        p {
-            font-weight: $fw-medium;
-            @include font-size('h4');
+        @include bp-min($large) {
+
+            p {
+                @include font-size('h4');
+            }
         }
     }
 }

@@ -5,7 +5,7 @@ const PageHeader = ({ title, superTitle }) => (
   <div className="page-header">
     <TitleDash />
     <h3 className="font-medium">{ superTitle }</h3>
-    <h1 className="font-heavy line-height-14">{ title }</h1>
+    <h1 className="font-heavy lh-14">{ title }</h1>
   </div>
 )
 

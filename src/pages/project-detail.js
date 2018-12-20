@@ -14,7 +14,7 @@ const ProjectDetail = ({ data }) => {
       return (
         <div className="project-header__prop">
           <h5>{ title }</h5>
-          <p>{ prop }</p>
+          <p className="font-medium lh-18">{ prop }</p>
         </div>
       )
     }

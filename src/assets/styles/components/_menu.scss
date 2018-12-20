@@ -49,6 +49,7 @@
         a {
             padding: 2rem 0;
             font-weight: $fw-heavy;
+            transition: color .15s ease-out;
             @include font-size('h2');
             @include hocus {
                 background-color: $color-gray-1;
@@ -63,6 +64,7 @@
                 margin-left: 8rem;
                 @include font-size('body');
                 @include hocus {
+                    color: $color-accent-2;
                     background-color: transparent;
                 }
 

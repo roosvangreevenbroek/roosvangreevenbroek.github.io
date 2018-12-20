@@ -1,15 +1,13 @@
 .project-content {
-    padding-top: 6rem;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 6rem 0;
     line-height: 2;
 
-    p {
+    p, ul {
         margin-bottom: 1.5rem;
     }
 
     h2 {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         font-weight: $fw-heavy;
         line-height: normal;
         text-transform: uppercase;
@@ -29,10 +27,25 @@
         list-style-type: decimal;
     }
 
+    .gatsby-resp-image-wrapper {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
     @include bp-min($small) {
-        padding-top: 10rem;
+        padding: 8rem 0;
+
+        .gatsby-resp-image-wrapper {
+            margin-top: 6rem;
+            margin-bottom: 6rem;
+        }
+    }
+
+    @include bp-min($large) {
+        padding: 10rem 0;
 
         h2 {
+            margin-bottom: 3rem;
             position: absolute;
             left: 3rem;
             max-width: 200px;

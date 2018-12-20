@@ -18,7 +18,7 @@ intro: "I made a UX project out of making my own UX design portfolio website. Fi
 
 Not having a online portfolio forms multiple barriers in finding new colleagues to work with and interesting projects to work on for either future employees and sollicitants.
 
-![Flow](flow.jpg)
+![Flow](flow.jpg){.test}
 
 ---
 

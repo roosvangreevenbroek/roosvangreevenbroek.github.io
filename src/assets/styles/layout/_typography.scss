@@ -8,6 +8,7 @@ body,
     overflow-x: hidden;
     font-family: $body-font; font-weight: normal; font-size: map-get($font-sizes-small, body);
     line-height: 2;
+    color: $color-gray-4;
 
     @include bp-min($small) {
         font-size: map-get($font-sizes-large, body);
@@ -99,6 +100,10 @@ hr {
     margin: 4rem 0;
 
     @include bp-min($small) {
+        margin: 6rem 0;
+    }
+
+    @include bp-min($large) {
         margin: 8rem 0;
     }
 }

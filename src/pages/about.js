@@ -2,30 +2,24 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import TitleDash from '../components/title-dash'
+import EducationBlock from '../components/education-block'
 import roosImage from '../assets/images/roos.jpg'
 
-const renderEducationBlock = (date, title, description, organisation) => (
-  <p>
-    { date }<br />
-    { title }<br />
-    { description }<br />
-    <a href={ organisation.link}
-      className="link"
-      target="_blank"
-      rel="noopener noreferrer">
-      { organisation.title }
-    </a>
-  </p>
-)
-
 const About = () => (
-  <Layout classes="pt-10">
+  <Layout classes="pt-10-l">
 
-    <section className="about-section">
-      <h2 className="about-section__title">Why UX</h2>
+    <section className="about-section about-section--contact">
 
+      <div className="about-section__title dn db-m mb-2">
+        <TitleDash classes="dn db-m mb-1" />
+        <h2 className="font-heavy uppercase">Why UX</h2>
+      </div>
       <div className="about-section__inner">
         <article>
+          <TitleDash classes="db dn-m mb-1" />
+          <h2 className="about-section__title db dn-m mb-3">Why UX</h2>
+
           <h1 className="body">
             <strong>Hi! I’m Roos, a user experience designer based in Amsterdam.</strong>
           </h1>
@@ -57,88 +51,77 @@ const About = () => (
         </article>
 
         <aside>
-          <img src={roosImage} alt="Roos van Greevenbroek" />
+          <img src={roosImage} alt="Roos van Greevenbroek" className="about-section__portrait" />
 
-          <div>
-            <h5>Contact</h5>
-            <p>
-              <a href="mailto:roosvangreevenbroek@gmail.com"
-                className="link">
-                roosvangreevenbroek@gmail.com
-              </a>
-            </p>
-          </div>
+          <div className="about-section__contact-block">
+            <div>
+              <h5>Contact</h5>
+              <p>
+                <a href="mailto:roosvangreevenbroek@gmail.com"
+                  className="link">
+                  roosvangreevenbroek@gmail.com
+                </a>
+              </p>
+            </div>
 
-          <div>
-            <h5>Resume</h5>
-            <p>
-              <a href="https://www.linkedin.com/in/roos-van-greevenbroek-7b1a24101/"
-                className="link"
-                target="_blank"
-                rel="noopener noreferrer">
-                LinkedIn
-              </a>,
-              <a href=""
-                className="link"
-                target="_blank"
-                rel="noopener noreferrer">
-                PDF
-              </a>
-            </p>
-          </div>
+            <div>
+              <h5>Resume</h5>
+              <p>
+                <a href="https://www.linkedin.com/in/roos-van-greevenbroek-7b1a24101/"
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  LinkedIn
+                </a>,
+                <a href=""
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  PDF
+                </a>
+              </p>
+            </div>
 
-          <div>
-            <h5>Interests</h5>
-            <p>Drawing, cooking and eating, nature, traveling, sudoku, sexuology</p>
+            <div>
+              <h5>Interests</h5>
+              <p className="font-medium lh-18">
+                Drawing, cooking and eating, nature, traveling, sudoku, sexuology
+              </p>
+            </div>
           </div>
         </aside>
       </div>
     </section>
 
     <section className="about-section">
-      <h2 className="about-section__title">Education</h2>
+      <h2 className="about-section__title mb-3 font-heavy uppercase">Education</h2>
 
       <div className="about-section__inner">
-        {
-          renderEducationBlock(
-            '2018',
-            'UX Crash-course',
-            'Certificate in user experience design',
-            {
-              title: 'Humanoids',
-              link: 'https://humanoids.nl/'
-            }
-          )
-        }
+        <EducationBlock
+          date="2018"
+          title="UX Crash-course"
+          description="Certificate in user experience design"
+          organisation={{ title: 'Humanoids', link: 'https://humanoids.nl/' }}
+        />
 
-        {
-          renderEducationBlock(
-            '2014 - 2016',
-            'Master of Science',
-            'Clinical Psychology (cum laude)',
-            {
-              title: 'Vrije Universiteit Amsterdam',
-              link: 'https://www.vu.nl/en'
-            }
-          )
-        }
+        <EducationBlock
+          date="2014 - 2016"
+          title="Master of Science"
+          description="Clinical Psychology (cum laude)"
+          organisation={{ title: 'Vrije Universiteit Amsterdam', link: 'https://www.vu.nl/en' }}
+        />
 
-        {
-          renderEducationBlock(
-            '2011 - 2014',
-            'Bachelor of Science',
-            'Psychology',
-            {
-              title: 'Vrije Universiteit Amsterdam',
-              link: 'https://www.vu.nl/en'
-            }
-          )
-        }
+        <EducationBlock
+          date="2011 - 2014"
+          title="Bachelor of Science"
+          description="Psychology"
+          organisation={{ title: 'Vrije Universiteit Amsterdam', link: 'https://www.vu.nl/en' }}
+        />
       </div>
     </section>
 
     <section className="about-section about-section--skills">
-      <h2 className="about-section__title">Skills</h2>
+      <h2 className="about-section__title mb-3 font-heavy uppercase">Skills</h2>
 
       <div className="about-section__inner">
         <div>

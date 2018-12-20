@@ -1,8 +1,44 @@
 .about-section {
     border-bottom: 2px solid $color-gray-1;
-    margin-bottom: 10rem;
-    padding-bottom: 10rem;
+    margin-bottom: 6rem;
+    padding-bottom: 4rem;
     position: relative;
+    $self: &;
+
+    @include bp-min($large) {
+        margin-bottom: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    &--contact {
+
+        #{$self}__portrait {
+            margin-bottom: 2rem;
+
+            @include bp-min($medium) {
+                width: 40%;
+            }
+
+            @include bp-min($large) {
+                width: auto;
+            }
+        }
+
+        #{$self}__contact-block {
+
+            @include bp-min($medium) {
+                padding-left: 1rem;
+            }
+
+            @include bp-min($large) {
+                padding-left: 0;
+
+                p {
+                    @include font-size('h4');
+                }
+            }
+        }
+    }
 
     &:last-child {
         border-bottom: none;
@@ -11,43 +47,47 @@
 
     &__inner {
         @include content('small');
-        padding: 0;
+        padding: 0 !important;
         display: flex;
         flex-direction: column;
 
-        .about-section--skills & {
+        #{$self}--skills & {
             display: flex;
             justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
         }
     }
 
     &__title {
-        font-weight: $fw-heavy;
-        text-transform: uppercase;
-    }
-
-    article {
-        order: 2;
-    }
-
-    aside {
-        order: 1;
-    }
-
-    @include bp-min($medium) {
-
-        &__title {
+        @include bp-min($large) {
             position: absolute;
             top: 0;
             left: 0;
         }
+    }
 
-        article {
+    article {
+        order: 2;
+
+        @include bp-min($large) {
             padding-right: 4rem;
             order: 1;
         }
+    }
 
-        aside {
+    aside {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+
+        @include bp-min($medium) {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        @include bp-min($large) {
+            flex-direction: column;
             position: absolute;
             top: 0;
             right: 0;
