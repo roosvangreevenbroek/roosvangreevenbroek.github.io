@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import TitleDash from '../components/title-dash'
@@ -73,7 +72,7 @@ const About = () => (
                   rel="noopener noreferrer">
                   LinkedIn
                 </a>,
-                <a href=""
+                <a href="#"
                   className="link"
                   target="_blank"
                   rel="noopener noreferrer">
