@@ -22,7 +22,7 @@ import ContentImage from '~/components/ContentImage.vue'
   </template>
   <template v-slot:body>
     <p>
-      High stress levels are increasingly affecting peoples’ daily life. To cope with this successfully, people need more awareness of their stress level and guidance on how to reduce it [source]. Ubiquitous smartphone apps can be helpful [source], but are also found to cause stress [source], whereas drawing can effectively reduce stress [source].
+      High stress levels are increasingly affecting peoples’ daily life. To cope with this successfully, people need <a href="https://www.researchgate.net/publication/220766070_What's_Your_Current_Stress_Level_Detection_of_Stress_Patterns_from_GSR_Sensor_Data" class="link" target="_blank" rel="noopener">more awareness</a> of their stress level and guidance on how to reduce it. Ubiquitous smartphone apps can be <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6614998/" class="link" target="_blank" rel="noopener">helpful</a>, but are also found to <a href="https://pubmed.ncbi.nlm.nih.gov/29673047/" class="link" target="_blank" rel="noopener">cause stress</a>, whereas drawing can effectively <a href="https://www.tandfonline.com/doi/full/10.1080/07421656.2016.1166832" class="link" target="_blank" rel="noopener">reduce stress</a>.
     </p>
   </template>
 </content-section>
@@ -71,7 +71,7 @@ import ContentImage from '~/components/ContentImage.vue'
 <content-section>
   <template v-slot:body>
     <p>
-      Combined measures of the MAX30105 and GSR sensor proved to be reliable in measuring and classifying stress, similar to earlier research [source], and did not need machine learning to recognise stress patterns. Although the LCD shield was quite small, I chose this component to draw on as it was a feasible option for the scope of this project.
+      Combined measures of the MAX30105 and GSR sensor proved to be reliable in measuring and classifying stress, similar to <a href="https://eej.aut.ac.ir/article_822.html" class="link" target="_blank" rel="noopener">earlier research</a>, and did not need machine learning to recognise stress patterns. Although the LCD shield was quite small, I chose this component to draw on as it was a feasible option for the scope of this project.
     </p>
     <p>
       I refined the concept and instead of the pulsating lines in the first sketch, I included coloured LEDs inside the pencil, matching the colour of the drawn lines, to give additional feedback on stress level and enabling a natural drawing interaction. The sensors would be worn separately on the non-drawing hand to ensure reliable signals.
@@ -124,7 +124,7 @@ import ContentImage from '~/components/ContentImage.vue'
 <content-section>
   <template v-slot:body>
     <p>
-      I then designed the case with code and Illustrator, based on [source], laser cutted the design in 4mm plywood and assembled it. In Tinkercad I created a hollow 3D model of the LED-pencil (height: 12cm, width: 1.5cm) so the LED-strip would fit inside. The wall thickness was set on 1.5mm, ensuring good stability and enough translucency for the LED lights. 
+      I then designed the case with code and Illustrator, based on <a href="https://www.thingiverse.com/thing:17240" class="link" target="_blank" rel="noopener">this design</a>, laser cutted the design in 4mm plywood and assembled it. In Tinkercad I created a hollow 3D model of the LED-pencil (height: 12cm, width: 1.5cm) so the LED-strip would fit inside. The wall thickness was set on 1.5mm, ensuring good stability and enough translucency for the LED lights. 
     </p>
   </template>
 </content-section>
