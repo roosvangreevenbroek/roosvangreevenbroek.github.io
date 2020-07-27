@@ -3,7 +3,7 @@
     class="md:flex items-center mb-20 md:mb-32 lg:mb-64"
     :class="{ 'flex-row-reverse': index % 2 === 1 }"
   >
-    <div class="w-full sm:w-1/2 mb-8 sm:mb-0">
+    <div class="w-full md:w-1/2 mb-8 sm:mb-0">
       <g-link
         :to="node.path"
         class="w-100 pb-8/12 block relative"
@@ -24,7 +24,7 @@
       </g-link>
     </div>
 
-    <div class="w-full sm:w-1/2 sm:p-6 lg:p-12">
+    <div class="w-full md:w-1/2 sm:p-6 lg:p-12">
       <g-link :to="node.path">
         <h2 class="text-2xl lg:text-4xl leading-very-tight font-black mb-2">
           {{ node.title }}
