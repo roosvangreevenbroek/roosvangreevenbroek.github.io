@@ -143,7 +143,7 @@ import ContentVideo from '~/components/ContentVideo.vue'
   </template>
   <template v-slot:body>
     <p>
-      Many errors in video calling resulted from the hang-up button being too close to others. In sketches, I aimed to avoid this by separating this button from others, but as other UI elements such as names, (multiple) error messages and multi-participant views would also be added, this would quickly result in a chaotic UI. I made the choice to group all buttons together at the bottom, leave enough space between them and order them based on frequency of use. To minimize cognitive load, buttons would disappear during inactivity. I created clear error messages to inform and instruct users who experienced slow internet connection, audio or video problems.
+      Many errors in video calling resulted from the hang-up button being too close to others. In sketches, I aimed to avoid this by separating this button from others, but as other UI elements such as names, (multiple) error messages and multi-participant views would also be added, this would quickly result in a chaotic UI. I made the choice to group all buttons together at the bottom, leave enough space between them and order them based on frequency of use. To minimise cognitive load, buttons would disappear during inactivity. I created clear error messages to inform and instruct users who experienced slow internet connection, audio or video problems.
     </p>
   </template>
 </content-section>

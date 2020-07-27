@@ -22,7 +22,7 @@ import ContentImage from '~/components/ContentImage.vue'
   </template>
   <template v-slot:body>
     <p>
-    The option to customize a Correctbook is, at the moment, an obstructive process that takes a lot of steps and time which makes it unattractive for companies to purchase their customized Correctbooks. In the current flow, companies can request a quotation on the Correctbook website. Next, Correctbook asks for a detailed design to be sent or, on request, makes a design if the company itself has little design experience. This flow is not ideal for both parties.
+    The option to customise a Correctbook is, at the moment, an obstructive process that takes a lot of steps and time which makes it unattractive for companies to purchase their customised Correctbooks. In the current flow, companies can request a quotation on the Correctbook website. Next, Correctbook asks for a detailed design to be sent or, on request, makes a design if the company itself has little design experience. This flow is not ideal for both parties.
     </p>
     <ul>
         <li>
@@ -59,7 +59,7 @@ import ContentImage from '~/components/ContentImage.vue'
   </template>
   <template v-slot:body>
     <p>
-    To find out what the tool should or should not contain, we conducted five interviews and tested comparable services (e.g. Hema, Fotofabriek, Greetz etc.) with the interviewees. During the test the interviewees were asked to personalize a Hema notebook or Greetz card and to think out loud while performing their tasks. Through observation of their behaviour, asking what, how, which, why questions and making notes, we got some early insights.
+    To find out what the tool should or should not contain, we conducted five interviews and tested comparable services (e.g. Hema, Fotofabriek, Greetz etc.) with the interviewees. During the test the interviewees were asked to personalise a Hema notebook or Greetz card and to think out loud while performing their tasks. Through observation of their behaviour, asking what, how, which, why questions and making notes, we got some early insights.
     </p>
     <ul>
         <li>
@@ -91,7 +91,7 @@ import ContentImage from '~/components/ContentImage.vue'
   </template>
   <template v-slot:body>
     <p>
-      Based on the results of the test and the paintpoints in the current userflow, we made sketches and wireframes of the tool. We choose to show designoptions and direct feedback on one page, the give users the possibility to choose guidance, and to minimalize the steps before entering the designtool.After multiple tests, iterations and refinement, we made a final design. Because the tool was designed for customers, we opted for a clean and minimal design using the colours and font matching the house-style of Correctbook.
+      Based on the results of the test and the paintpoints in the current userflow, we made sketches and wireframes of the tool. We choose to show designoptions and direct feedback on one page, the give users the possibility to choose guidance, and to minimise the steps before entering the designtool.After multiple tests, iterations and refinement, we made a final design. Because the tool was designed for customers, we opted for a clean and minimal design using the colours and font matching the house-style of Correctbook.
     </p>
   </template>
 </content-section>
@@ -132,11 +132,11 @@ import ContentImage from '~/components/ContentImage.vue'
 
 <content-section>
   <template v-slot:title>
-    Minimalising choices before designtool (?)
+    Minimising choices before designtool
   </template>
   <template v-slot:body>
     <p>
-      Users wanted to try out the designtool options as quickly as possible. We have therefore opted to have the customer make only essential choices, such as size and pattern of the inside, before the customer actually goes into the tool to customize their Correctbook.
+      Users wanted to try out the designtool options as quickly as possible. We have therefore opted to have the customer make only essential choices, such as size and pattern of the inside, before the customer actually goes into the tool to customise their Correctbook.
     </p>
   </template>
 </content-section>
@@ -155,7 +155,7 @@ import ContentImage from '~/components/ContentImage.vue'
         This was one of my first design projects in which I learned the most of the basic design process, sketching and visual design. My colleague was very proficient in design and learned me a lot, while I - with little design experience and a psychological background - learned her a lot about analysing problems thoroughly and asking the right questions during interviews and usertesting. 
       </li>
       <li>
-        A design tool that lowers the threshold to order customized Correctbooks and makes the whole customer journey more fun and fast!
+        A design tool that lowers the threshold to order customised Correctbooks and makes the whole customer journey more fun and fast!
       </li>
     </ul>
   </template>
