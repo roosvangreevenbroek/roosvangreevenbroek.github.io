@@ -8,8 +8,8 @@ timeline: "June - July 2019"
 overviewIntro: "I created a responsive design of a video call feature in Minddistrict.com to support discussion between therapists and their clients on progress."
 headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
-nextPath: "/projects/physical-prototyping"
-nextName: "Heart - Drawing Tool"
+nextPath: "/projects/make-some-noise-for-nature"
+nextName: "Make Some Noise For Nature"
 order: 1
 outline: false
 ---

@@ -85,8 +85,8 @@
             <span class="block text-black font-bold">2019 - 2020</span>
             <span class="block">Master of Science</span>
             <span class="block">Human Computer Interaction</span>
-            <span class="block">
-              <a href="#" class="link">University College of London (UCL)</a>
+            <span class="block font-bold">
+              University College of London (UCL)
             </span>
           </div>
 
@@ -94,26 +94,22 @@
             <span class="block text-black font-bold">2018</span>
             <span class="block">UX Crash-course</span>
             <span class="block">Certificate in UX design</span>
-            <span class="block">
-              <a href="#" class="link">Humanoids</a>
-            </span>
+            <span class="block font-bold">Humanoids </span>
           </div>
 
           <div class="mb-8">
             <span class="block text-black font-bold">2014 - 2016</span>
             <span class="block">Master of Science</span>
             <span class="block">Clinical Psychology (high distinction)</span>
-            <span class="block">
-              <a href="#" class="link">Vrije Universiteit Amsterdam</a>
-            </span>
+            <span class="block font-bold">Vrije Universiteit Amsterdam</span>
           </div>
 
           <div class="mb-8">
             <span class="block text-black font-bold">2011 - 2014</span>
             <span class="block">Bachelor of Science</span>
             <span class="block">Psychology</span>
-            <span class="block">
-              <a href="#" class="link">Vrije Universiteit Amsterdam</a>
+            <span class="block font-bold">
+              Vrije Universiteit Amsterdam
             </span>
           </div>
         </template>

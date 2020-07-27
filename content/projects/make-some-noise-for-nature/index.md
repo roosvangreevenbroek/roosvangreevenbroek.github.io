@@ -9,8 +9,8 @@ achievements: "Finalists of the CHI2020 Student Game Competition - check out our
 overviewIntro: "With my team, I created this game to raise awareness for animal extinction and promote behavioural change. We became finalists of the CHI2020 Game Competition."
 headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
-nextPath: "/projects/minddistrict-video-call"
-nextName: "Minddistrict Video Call"
+nextPath: "/projects/physical-prototyping"
+nextName: "Heart - Drawing Tool"
 order: 2
 outline: false
 ---

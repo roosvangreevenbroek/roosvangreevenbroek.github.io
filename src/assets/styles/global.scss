@@ -22,8 +22,7 @@
     @apply absolute;
   }
 
-  &:hover,
-  &:focus {
+  &:hover {
 
     &:after {
       @apply hidden;

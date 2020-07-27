@@ -47,9 +47,9 @@
       <VueRemarkContent />
 
       <section
-        class="px-4 container mx-auto mb-20 lg:mb-40 flex justify-end items-center"
+        class="px-4 container mx-auto mb-20 lg:mb-40 flex flex-col sm:flex-row justify-end items-end sm:items-center"
       >
-        <span class="opacity-50 mr-4">Next project: </span>
+        <span class="opacity-50 sm:mr-4">Next project: </span>
         <g-link :to="$page.project.nextPath" class="link lg:text-2xl">
           {{ $page.project.nextName }}
         </g-link>
