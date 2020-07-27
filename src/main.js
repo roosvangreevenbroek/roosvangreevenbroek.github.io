@@ -21,9 +21,4 @@ export default function (Vue, { router, head, isClient }) {
     href:
       'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap',
   })
-
-  router.beforeEach((to, from, next) => {
-    document.body.style.overflow = null
-    next()
-  })
 }

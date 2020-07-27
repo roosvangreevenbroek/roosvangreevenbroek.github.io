@@ -7,6 +7,7 @@ const tailwindcss = require('tailwindcss')
 
 module.exports = {
   siteName: 'Roosvangreevenbroek',
+  siteUrl: 'https://roosvangreevenbroek.github.io',
   icon: {
     favicon: './src/favicon.png',
     touchicon: './src/touchicon.png',
