@@ -18,7 +18,7 @@ import ContentSection from '~/components/ContentSection.vue'
 import ContentImage from '~/components/ContentImage.vue'
 import ContentVideo from '~/components/ContentVideo.vue'
 
-<content-video url="https://player.vimeo.com/video/440793980" caption="THIS VIDEO SHOWS THE PROTOTYPE OF THE CUSTOMISATION TOOL"/>
+<content-video url="https://player.vimeo.com/video/440793980" size="wide" caption="THIS VIDEO SHOWS THE PROTOTYPE OF THE VIDEO CALL FEATURE"/>
 
 <content-section>
   <template v-slot:title>

@@ -16,6 +16,9 @@ outline: true
 
 import ContentSection from '~/components/ContentSection.vue'
 import ContentImage from '~/components/ContentImage.vue'
+import ContentVideo from '~/components/ContentVideo.vue'
+
+<content-video url="https://player.vimeo.com/video/442145699" size="wide" caption="THIS VIDEO SHOWS THE IDEA BEHIND HEART, DESIGN PROCESS AND PROTOTYPE"/>
 
 <content-section>
   <template v-slot:title>

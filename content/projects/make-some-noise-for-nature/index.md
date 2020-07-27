@@ -16,6 +16,11 @@ outline: false
 ---
 import ContentSection from '~/components/ContentSection.vue'
 import ContentImage from '~/components/ContentImage.vue'
+import ContentVideo from '~/components/ContentVideo.vue'
+
+<content-video url="https://player.vimeo.com/video/440793659" size="wide" caption="THIS VIDEO SHOWS HOW WE DESIGNED THE GAME"/>
+
+<content-video url="https://player.vimeo.com/video/440793682" size="wide" caption="THIS VIDEO SHOWS A TRAILER OF HOW THE GAME IS PLAYED IN OUR FINAL DESIGN"/>
 
 <content-section>
   <template v-slot:title>
