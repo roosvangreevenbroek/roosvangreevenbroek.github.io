@@ -12,6 +12,7 @@ headingSmall: "./heading-small.png"
 nextPath: "/projects/minddistrict-video-call"
 nextName: "Minddistrict Video Call"
 order: 2
+outline: false
 ---
 import ContentSection from '~/components/ContentSection.vue'
 import ContentImage from '~/components/ContentImage.vue'

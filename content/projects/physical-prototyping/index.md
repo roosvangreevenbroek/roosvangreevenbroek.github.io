@@ -1,5 +1,5 @@
 ---
-color: "#ffffff"
+color: "#fddcc3"
 title: "Heart - A bio-feedback drawing tool"
 intro: "As part of my Masters’ HCI at the University College of London, I was challenged to design a novel interactive physical user interface prototype using methods of physical computing and digital fabrication. I created a full functioning physical prototype of my concept ‘heart’; an off-line bio-feedback drawing tool that measures your stress and changes the colour of a pencil accordingly, helping you to identify and reduce stress through drawing. The prototype consists of multiple sensors and actuators, which I programmed with C++. I designed the physical user interface in Tinkercad and Illustrator and realised the designs using 3D printing and laser cutting."
 team: "Individual University project"
@@ -11,6 +11,7 @@ headingSmall: "./heading-small.png"
 nextPath: "/projects/correctbook"
 nextName: "Correctbook"
 order: 3
+outline: true
 ---
 
 import ContentSection from '~/components/ContentSection.vue'

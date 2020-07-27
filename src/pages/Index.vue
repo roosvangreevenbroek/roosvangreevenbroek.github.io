@@ -18,6 +18,7 @@
           :index="idx"
           :node="edge.node"
           :image-mode="idx === 2 ? 'cover' : 'contain'"
+          :outline="edge.node.outline"
         />
       </section>
     </main>
@@ -35,6 +36,7 @@ query Projects {
         overviewIntro
         color
         headingSmall
+        outline
       }
     }
   }

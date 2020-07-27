@@ -39,10 +39,5 @@ export default {
       showMenu: false,
     }
   },
-  watch: {
-    showMenu(stopScroll) {
-      document.body.style.overflow = stopScroll ? 'hidden' : null
-    },
-  },
 }
 </script>

@@ -1,8 +1,12 @@
 <template>
   <Layout>
     <div
-      class="lg:h-90-pct bg-gray-300 relative shadow-lg"
-      :style="{ backgroundColor: $page.project.color }"
+      class="lg:h-90-pct bg-white relative shadow-lg"
+      :class="{ 'border-4 lg:border-8': $page.project.outline }"
+      :style="{
+        borderColor: $page.project.color,
+        backgroundColor: $page.project.outline ? null : $page.project.color,
+      }"
     >
       <div class="px-4 container mx-auto pt-24 lg:pt-28 h-full">
         <div class="flex flex-col h-full justify-end">
@@ -13,7 +17,7 @@
           <div class="lg:px-10 max-h-4/5">
             <g-image
               :src="$page.project.headingLarge"
-              class="h-full w-auto mx-auto"
+              class="h-full w-full object-contain w-auto mx-auto"
             />
           </div>
         </div>
@@ -67,6 +71,7 @@ query Project ($id: ID!) {
     timeline
     nextPath
     nextName
+    outline
   }
 }
 </page-query>
