@@ -3,7 +3,7 @@
     <main class="px-4 container mx-auto pt-16 lg:pt-28">
       <section class="pt-16 pb-24 lg:pt-40 lg:pb-32">
         <p
-          class="text-2xl lg:text-5xl font-bold leading-snug max-w-xl lg:max-w-4xl"
+          class="text-2xl lg:text-5xl font-bold leading-snug max-w-xl lg:max-w-5xl pr-8"
         >
           I’m <g-link class="link" to="/about">Roos</g-link>, an interaction
           designer with a background in both psychology and HCI. I enjoy
