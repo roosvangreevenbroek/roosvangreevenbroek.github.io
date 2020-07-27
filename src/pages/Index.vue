@@ -26,7 +26,7 @@
 
 <static-query>
 query Projects {
-  projects: allProject {
+  projects: allProject(sortBy: "order", order: ASC) {
     edges {
       node {
         id

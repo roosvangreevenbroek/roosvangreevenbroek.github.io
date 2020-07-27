@@ -10,6 +10,7 @@ headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
 nextPath: "/projects/correctbook"
 nextName: "Correctbook"
+order: 3
 ---
 
 import ContentSection from '~/components/ContentSection.vue'
