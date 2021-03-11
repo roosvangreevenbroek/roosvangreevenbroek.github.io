@@ -1,6 +1,6 @@
 ---
 color: "#FFCDCD"
-title: "Exploring how tech can stir up sexual desire in couples"
+title: "Technology for Sexual Desire"
 intro: "I conducted this project as part of my dissertation when studying HCI at UCL. Sexology interested me since I studied Psychology, and now I wanted to combine this with HCI as I think tech can be of great support in helping people learn and talk about sex-related topics and explore their sexualities. I have been hearing and reading so much on increased low sexual desire and activity in couples (especially millennials) and wanted to investigate why this is and how tech could help. Through conducting a survey and participatory design sessions, I created a low-fidelity prototype of a conceptual solution: Muse, an app that provides inspiration and suggestions based on preferences and background information, and spontaneously prompts users with questions, adventures, and tips and tricks."
 team: "Individual university project under supervision Dr. Aneesha Singh and PhD. Dilisha Patel."
 role: "Conducting primary and secondary research, exploring ideas through participatory design sessions, creating low-fidelity prototypes and reviewing."
@@ -50,6 +50,10 @@ import ContentVideo from '~/components/ContentVideo.vue'
     </ul>
   </template>
 </content-section>
+
+<content-image size="wide" caption="Approach & rough timeline">
+  <g-image src="./timeline.png" />
+</content-image>
 
 <content-section>
   <template v-slot:title>
@@ -201,8 +205,8 @@ import ContentVideo from '~/components/ContentVideo.vue'
   </template>
 </content-section>
 
-<content-image size="wide" caption="Storyboard">
-  <g-image src="./screenshot_document_with_feedback.jpg" />
+<content-image size="wide" caption="Example review concept">
+  <g-image src="./review.jpg" />
 </content-image>
 
 <content-section>
