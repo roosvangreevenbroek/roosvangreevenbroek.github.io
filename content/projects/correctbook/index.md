@@ -8,8 +8,8 @@ timeline: "September 2018"
 overviewIntro: "I created a designtool that empowers customers to personalise their own Correctbook product to increase the efficiency of purchasing and sales."
 headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
-nextPath: "/projects/minddistrict-video-call"
-nextName: "Minddistrict Video Call"
+nextPath: "/projects/technology-for-sexual-desire"
+nextName: "Technology for Sexual Desire"
 order: 4
 outline: false
 ---
