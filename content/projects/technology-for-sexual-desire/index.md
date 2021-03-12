@@ -66,7 +66,7 @@ import ContentVideo from '~/components/ContentVideo.vue'
   </template>
 </content-section>
 
-<content-image size="wide" caption="EXAMPLE SURVEY">
+<content-image size="full" caption="EXAMPLE SURVEY">
   <g-image src="./survey.jpg" />
 </content-image>
 
@@ -104,7 +104,7 @@ import ContentVideo from '~/components/ContentVideo.vue'
   </template>
 </content-section>
 
-<content-image size="wide" caption="One of the five personas ‘Alex’">
+<content-image size="wide" caption="ONE OF THE FIVE DATA-DRIVEN PERSONAS ‘ALEX’">
   <g-image src="./persona.jpg" />
 </content-image>
 

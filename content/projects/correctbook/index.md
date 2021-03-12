@@ -8,9 +8,9 @@ timeline: "September 2018"
 overviewIntro: "I created a designtool that empowers customers to personalise their own Correctbook product to increase the efficiency of purchasing and sales."
 headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
-nextPath: "/projects/technology-for-sexual-desire"
-nextName: "Technology for Sexual Desire"
-order: 4
+nextPath: "/projects/correctbook"
+nextName: "Correctbook"
+order: 3
 outline: false
 ---
 

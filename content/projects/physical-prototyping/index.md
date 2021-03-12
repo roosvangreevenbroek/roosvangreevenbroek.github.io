@@ -8,9 +8,9 @@ timeline: "March - May 2020"
 overviewIntro: "I developed a fully functional physical prototype of my concept heart: a tool that helps identify and reduce stress through drawing."
 headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
-nextPath: "/projects/correctbook"
-nextName: "Correctbook"
-order: 3
+nextPath: "/projects/technology-for-sexual-desire"
+nextName: "Technology for Sexual Desire"
+order: 4
 outline: true
 ---
 

@@ -8,27 +8,33 @@
       <section class="md:flex mb-20 lg:mb-32">
         <div class="md:w-1/2 lg:pr-12 text-lg lg:text-xl mb-8">
           <p class="mb-8">
-            Analysing and helping people has been interesting and important to
-            me for a while. I first studied psychology and did a masters in
-            Clinical Psychology. I've treated clients and learned much about
-            understanding and predict human behaviour. However, I missed the
-            creativity and solving problems in a practical way. This I found in
-            interaction design.
+            I’m interested in exploring how technology can impact human
+            well-being positively. My interest in human well-being first brought
+            me to finishing a MSc in Clinical Psychology (with distinction) in
+            2016. I became experienced in designing and conducting research, and
+            understanding people, but missed working with practical solutions
+            and creativity, and noticed the value of technology in this.
           </p>
 
           <p class="mb-8">
-            Through a UX crash course, internship and (second) masters in HCI, I
-            supplemented my psychological skills with knowledge of and practical
-            experience in interaction design. I developed a profound
-            understanding of design thinking processes and advanced in my
-            sketching, prototyping and user-testing skills.
+            While exploring my way into HCI, I worked as Traffic manager where I
+            developed management skills while improving customer experience. I
+            then focussed on learning interaction design through a 3-month UX
+            Course, following an 6-month internship as interaction designer. I
+            worked on several projects within a scrum team, and developed a
+            profound understanding of design thinking processes and advanced in
+            my sketching, prototyping and user-testing skills.
           </p>
 
           <p>
-            I believe technology can be a great way to support people in
-            self-development and live more consciously and relaxed - if
-            researched and designed thoughtfully. Currently, I am looking for
-            new opportunities to contribute in this.
+            My enthusiasm grew, and I wanted to dig even deeper in the
+            intersection of interaction design and user research. I applied for
+            the HCI course at UCL, where I graduated from in 2020 with a
+            distinction (top 5% student on the Dean’s list). I recently finished
+            a 4-month project as a research assistant at UCL and am currently
+            looking for new opportunities where I can contribute, as researcher
+            and interaction designer, at the forefront of the innovation of
+            products supporting people.
           </p>
         </div>
 
@@ -50,7 +56,7 @@
                 LinkedIn </a
               >,
               <a
-                href="/Resume_Roos-van-Greevenbroek_2020.pdf"
+                href="/Resume_Roos-van-Greevenbroek_February2021.pdf"
                 class="link"
                 target="_blank"
                 rel="noopener"
@@ -66,6 +72,26 @@
             <p>Finalist Student Game Competition CHI2020 +</p>
             <a
               href="https://dl.acm.org/doi/abs/10.1145/3334480.3381657"
+              class="link mb-2"
+              target="_blank"
+              rel="noopener"
+            >
+              publication
+            </a>
+
+            <p>Semi-finalist ASSETS2020 +</p>
+            <a
+              href="https://dl.acm.org/doi/fullHtml/10.1145/3373625.3417076"
+              class="link mb-2"
+              target="_blank"
+              rel="noopener"
+            >
+              publication
+            </a>
+
+            <p>Psychology MSc. dissertation +</p>
+            <a
+              href="https://www.researchgate.net/publication/325241609_Sexual_Expression_and_It%27s_Determinants_in_People_Diagnosed_with_Psychotic_Disorders"
               class="link"
               target="_blank"
               rel="noopener"
@@ -84,7 +110,9 @@
           <div class="mb-8">
             <span class="block text-black font-bold">2019 - 2020</span>
             <span class="block">Master of Science</span>
-            <span class="block">Human Computer Interaction</span>
+            <span class="block">
+              Human Computer Interaction (high distinction)
+            </span>
             <span class="block font-bold">
               University College of London (UCL)
             </span>
@@ -125,10 +153,16 @@
               <h5 class="text-black uppercase font-bold mb-4">Research</h5>
 
               <div>Surveys</div>
-              <div>User interviews</div>
-              <div>Competitive analysis</div>
+              <div>Interviews</div>
               <div>Personas</div>
               <div>Usability testing</div>
+              <div>Participatory design</div>
+              <div>Focus groups</div>
+              <div>Competitive analysis</div>
+              <div>Remote research</div>
+              <div>User journeys</div>
+              <div>Contextual inquiry</div>
+              <div>Task analysis</div>
             </div>
 
             <div class="mb-8">
@@ -136,12 +170,11 @@
                 Interaction design
               </h5>
 
-              <div>User journey</div>
-              <div>Task analysis</div>
               <div>Information architecture</div>
               <div>Paper prototyping</div>
               <div>Wireframing</div>
-              <div>Cdivckable protoypes</div>
+              <div>Interactive digital prototypes</div>
+              <div>End-to-end product design</div>
             </div>
 
             <div class="mb-8">
@@ -149,11 +182,15 @@
 
               <div>Sketch</div>
               <div>Invision</div>
+              <div>Overflow</div>
+              <div>Figma</div>
               <div>Zeplin</div>
               <div>Adobe XD</div>
               <div>Jira / Trello</div>
               <div>Arduino</div>
               <div>SPSS</div>
+              <div>Atlas.ti/Nvivo</div>
+              <div>Miro</div>
             </div>
           </div>
         </template>
