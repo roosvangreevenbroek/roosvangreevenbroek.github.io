@@ -6,10 +6,9 @@
           class="text-2xl lg:text-5xl font-bold leading-snug max-w-xl lg:max-w-5xl pr-8"
         >
           I’m <g-link class="link" to="/about">Roos</g-link>, a user researcher
-          and interaction designer. I have a strong background in Psychology and
-          HCI and enjoy creating human-centred, meaningful experiences. I’m best
-          at user research, ideation, end-to-end product design, and
-          prototyping.
+          and interaction designer. I enjoy creating human-centred, meaningful
+          experiences. I’m best at user research, ideation, end-to-end product
+          design, and prototyping.
         </p>
       </section>
 
