@@ -5,10 +5,9 @@
         <p
           class="text-2xl lg:text-5xl font-bold leading-snug max-w-xl lg:max-w-5xl pr-8"
         >
-          I’m <g-link class="link" to="/about">Roos</g-link>, a user researcher
-          and interaction designer. I enjoy creating human-centred, meaningful
-          experiences. I’m best at user research, ideation, end-to-end product
-          design, and prototyping.
+          Hi! I’m <g-link class="link" to="/about">Roos</g-link> - a UX designer with 
+          a strong research background creating human-centred, impactful experiences.
+          (in kleine letters eronder Key skills: ideation/concept development, prototyping, user research (quant & qual))
         </p>
       </section>
 

@@ -8,33 +8,30 @@
       <section class="md:flex mb-20 lg:mb-32">
         <div class="md:w-1/2 lg:pr-12 text-lg lg:text-xl mb-8">
           <p class="mb-8">
-            I’m interested in exploring how technology can impact human
-            well-being positively. My interest in human well-being first brought
-            me to finishing a MSc in Clinical Psychology (with distinction) in
-            2016. I became experienced in designing and conducting research, and
-            understanding people, but missed working with practical solutions
-            and creativity, and noticed the value of technology in this.
+            I’m interested in researching and designing technology to improve 
+            human well-being. My interest in human well-being first brought me 
+            to finishing an MSc in Clinical Psychology in 2016. I became 
+            experienced in designing and conducting research, and understanding 
+            people, but missed working with practical solutions and creativity, 
+            and noticed the value of technology in this.
+
           </p>
 
           <p class="mb-8">
-            While exploring my way into HCI, I worked as Traffic manager where I
-            developed management skills while improving customer experience. I
-            then focussed on learning interaction design through a 3-month UX
-            Course, following an 6-month internship as interaction designer. I
-            worked on several projects within a scrum team, and developed a
-            profound understanding of design thinking processes and advanced in
-            my sketching, prototyping and user-testing skills.
+            While exploring my way into HCI, I worked as Traffic manager where I 
+            developed management skills while focusing on improving customer 
+            experience. I then focussed on learning interaction design through a 
+            3-month UX Course, following a 6-month internship as interaction 
+            designer, where I worked on several projects within a scrum team.
           </p>
 
           <p>
-            My enthusiasm grew, and I wanted to dig even deeper in the
-            intersection of interaction design and user research. I applied for
-            the HCI course at UCL, where I graduated from in 2020 with a
-            distinction (top 5% student on the Dean’s list). I recently finished
-            a 4-month project as a research assistant at UCL and am currently
-            looking for new opportunities where I can contribute, as researcher
-            and interaction designer, at the forefront of the innovation of
-            products supporting people.
+            My enthusiasm grew, and I wanted to dig even deeper into the 
+            intersection of interaction design and user research. I applied for 
+            the HCI course at UCL, where I graduated in 2020 with a distinction 
+            (Dean’s list). I just finished working on a project at UCL to set up 
+            an innovative online sexual health clinic where I led research and 
+            design, and am exploring my next step.
           </p>
         </div>
 
@@ -66,7 +63,7 @@
             </p>
 
             <h6 class="uppercase text-xs opacity-50">Interests</h6>
-            <p class="mb-4">Cycling, cooking (and eating), sex-tech, drawing</p>
+            <p class="mb-4">Hiking, cooking, drawing, dancing, travelling</p>
 
             <h6 class="uppercase text-xs opacity-50">Achievements</h6>
             <p>Finalist Student Game Competition CHI2020 +</p>
@@ -152,27 +149,32 @@
             <div class="mb-8">
               <h5 class="text-black uppercase font-bold mb-4">Research</h5>
 
+              <div>Qualitative research</div>
+              <div>Quantitative research</div>
               <div>Surveys</div>
               <div>Interviews</div>
+              <div>Contextual inquiry</div>
               <div>Personas</div>
               <div>Usability testing</div>
+              <div>Concept testing</div>
               <div>Participatory design</div>
               <div>Focus groups</div>
               <div>Competitive analysis</div>
-              <div>Remote research</div>
-              <div>User journeys</div>
-              <div>Contextual inquiry</div>
               <div>Task analysis</div>
+              <div>User journey maps</div>
+              <div>Service blueprints</div>
+              <div>Customer journey maps</div>
             </div>
 
             <div class="mb-8">
               <h5 class="text-black uppercase font-bold mb-4">
-                Interaction design
+                Design
               </h5>
 
               <div>Information architecture</div>
+              <div>Rapid prototyping</div>
               <div>Paper prototyping</div>
-              <div>Wireframing</div>
+              <div>Low to high fidelity wireframing</div>
               <div>Interactive digital prototypes</div>
               <div>End-to-end product design</div>
             </div>
@@ -180,16 +182,14 @@
             <div class="mb-8">
               <h5 class="text-black uppercase font-bold mb-4">Tools</h5>
 
-              <div>Sketch</div>
+              <div>Figma / Adobe XD / Sketch</div>
               <div>Invision</div>
               <div>Overflow</div>
-              <div>Figma</div>
               <div>Zeplin</div>
-              <div>Adobe XD</div>
-              <div>Jira / Trello</div>
+              <div>Jira / Trello / Atlassian</div>
               <div>Arduino</div>
               <div>SPSS</div>
-              <div>Atlas.ti/Nvivo</div>
+              <div>Atlas.ti / Nvivo</div>
               <div>Miro</div>
             </div>
           </div>
@@ -208,7 +208,7 @@ export default {
     ContentSection,
   },
   metaInfo: {
-    title: 'About us',
+    title: 'About me',
   },
 }
 </script>
