@@ -10,7 +10,7 @@ headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
 nextPath: "/projects/make-some-noise-for-nature"
 nextName: "Make Some Noise For Nature"
-order: 1
+order: 2
 outline: false
 ---
 

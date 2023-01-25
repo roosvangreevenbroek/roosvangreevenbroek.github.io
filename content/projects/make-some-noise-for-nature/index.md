@@ -11,7 +11,7 @@ headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
 nextPath: "/projects/physical-prototyping"
 nextName: "Heart - Drawing Tool"
-order: 2
+order: 3
 outline: false
 ---
 import ContentSection from '~/components/ContentSection.vue'

@@ -67,7 +67,7 @@ export default {
     setInterval(() => {
       this.wordIndex = this.wordIndex < words.length - 1 ? this.wordIndex + 1 : 0
       this.setWord()
-    }, 3000)
+    }, 2000)
   },
   methods: {
     setWord() {

@@ -10,7 +10,7 @@ headingLarge: "./cover.png"
 headingSmall: "./cover.png"
 nextPath: "/projects/minddistrict-video-call"
 nextName: "Minddistrict Video Call"
-order: 0
+order: 1
 outline: false
 ---
 

@@ -10,7 +10,7 @@ headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
 nextPath: "/projects/technology-for-sexual-desire"
 nextName: "Technology for Sexual Desire"
-order: 4
+order: 5
 outline: true
 ---
 
