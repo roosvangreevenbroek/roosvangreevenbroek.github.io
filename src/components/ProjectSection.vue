@@ -33,7 +33,10 @@
       <p class="lg:text-xl leading-normal mb-2">
         {{ node.overviewIntro }}
       </p>
-      <g-link :to="node.path" class="link text-lg">
+
+      <p class="text-lg text-blue font-bold leading-tight" v-if="comingSoon">coming soon</p>
+
+      <g-link :to="node.path" class="link text-lg" v-else>
         view project
       </g-link>
     </div>
@@ -53,6 +56,10 @@ export default {
       required: true,
     },
     outline: {
+      type: Boolean,
+      default: false,
+    },
+    comingSoon: {
       type: Boolean,
       default: false,
     },

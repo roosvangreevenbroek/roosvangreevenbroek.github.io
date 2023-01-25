@@ -5,7 +5,7 @@ intro: "I created and supported implementation of a responsive design for a new 
 team: "Agile scrum team with 1 UX/UI designer (me), 2 developers, 1 QA and a product owner. "
 role: "Conducting secondary research, exploring ideas through sketching, creating multiple interactive prototypes and iterative testing."
 timeline: "June - July 2019"
-overviewIntro: "Designed a video feature for the responsive Minddistrict website to offer support of therapists during patients' online self-help journey."
+overviewIntro: "Designed a video feature for the responsive Minddistrict website to offer support from therapists during patients' online self-help journey."
 headingLarge: "./heading-large.png"
 headingSmall: "./heading-small.png"
 nextPath: "/projects/make-some-noise-for-nature"

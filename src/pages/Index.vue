@@ -6,8 +6,7 @@
           class="text-2xl lg:text-5xl font-bold leading-snug max-w-xl lg:max-w-5xl pr-8"
         >
           Hi! I’m <g-link class="link" to="/about">Roos</g-link> - a UX designer with 
-          a strong research background creating human-centred, impactful experiences.
-          (in kleine letters eronder Key skills: ideation/concept development, prototyping, user research (quant & qual))
+          a strong research background <span class="lg:hidden">creating</span><span aria-hidden="true" class="text-blue hidden lg:inline-block">{{word}}</span> human-centred, impactful experiences.
         </p>
       </section>
 
@@ -19,6 +18,7 @@
           :node="edge.node"
           :image-mode="idx === 2 ? 'cover' : 'contain'"
           :outline="edge.node.outline"
+          :comingSoon="edge.node.comingSoon"
         />
       </section>
     </main>
@@ -37,6 +37,7 @@ query Projects {
         color
         headingSmall
         outline
+        comingSoon
       }
     }
   }
@@ -45,6 +46,9 @@ query Projects {
 
 <script>
 import ProjectSection from '@/components/ProjectSection'
+
+const words = ['creating',  'researching', 'ideating', 'prototyping','designing']
+
 export default {
   components: {
     ProjectSection,
@@ -52,5 +56,23 @@ export default {
   metaInfo: {
     title: 'Roos van Greevenbroek',
   },
+  data() {
+    return {
+      word: '',
+      wordIndex: 0
+    }
+  },  
+  mounted() {
+    this.setWord()
+    setInterval(() => {
+      this.wordIndex = this.wordIndex < words.length - 1 ? this.wordIndex + 1 : 0
+      this.setWord()
+    }, 3000)
+  },
+  methods: {
+    setWord() {
+      this.word = words[this.wordIndex];
+    }
+  }
 }
 </script>

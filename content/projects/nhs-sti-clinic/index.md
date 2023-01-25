@@ -1,10 +1,10 @@
 ---
-color: "#FFCDCD"
-title: "2020 · Leveraging technology for sexual desire"
-intro: "Couples (especially millennials) are experiencing low sexual desire and activity, and I wanted to investigate why this is and how technology could be of support. Through conducting a survey and participatory design sessions, I created a low-fidelity prototype of a conceptual solution: Muse, an app that provides inspiration and suggestions based on preferences and background information, and spontaneously prompts users with questions, adventures, and tips and tricks. *I conducted this project as part of my dissertation when studying HCI at UCL, which was awarded with a distinction."
-team: "Individual university project under supervision Dr. Aneesha Singh and PhD. Dilisha Patel."
+color: "#E9F6F5"
+title: "2021-2022 · An online STI clinic for the NHS"
+intro: "intro"
+team: "Sole UX designer within a team of sexual health clinicians, academics, and health psychologist and external software developers"
 role: "Conducting primary and secondary research, exploring ideas through participatory design sessions, creating low-fidelity prototypes and reviewing."
-timeline: "June 2020 - Sept 2020 (3 months)"
+timeline: "May 2021 - January 2023"
 overviewIntro: "Conducted deep dive research, participatory design sessions, and created conceptual designs to explore couples’ needs in how technology could support sexual desire."
 headingLarge: "./cover.png"
 headingSmall: "./cover.png"
@@ -12,6 +12,7 @@ nextPath: "/projects/minddistrict-video-call"
 nextName: "Minddistrict Video Call"
 order: 0
 outline: false
+comingSoon: true
 ---
 
 import ContentSection from '~/components/ContentSection.vue'
@@ -29,7 +30,7 @@ import ContentVideo from '~/components/ContentVideo.vue'
   </template>
 </content-section>
 
-<content-section>
+<!-- <content-section>
   <template v-slot:title>
     Challenge
   </template>
@@ -229,4 +230,4 @@ import ContentVideo from '~/components/ContentVideo.vue'
       </li>
     </ul>
   </template>
-</content-section>
+</content-section> -->
